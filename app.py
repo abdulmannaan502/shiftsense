@@ -11,8 +11,8 @@ try:
 except Exception:
     pass
 
-from shiftsense.core import SCENARIOS, Manual, build_briefing, generate_shift, llm_config, transcribe
-from shiftsense import evolus
+from shiftsense_core import SCENARIOS, Manual, build_briefing, generate_shift, llm_config, transcribe
+import shiftsense_evolus as evolus
 
 st.set_page_config(page_title="ShiftSense", page_icon="🏭", layout="wide")
 

@@ -62,8 +62,8 @@ Without any environment variables the app still runs, using the rule-based fallb
 ## Project structure
 ```
 app.py                  Streamlit UI (tablet-friendly)
-shiftsense/core.py      anomaly scoring, retrieval, transcription, briefing (LLM + fallback)
-shiftsense/evolus.py    optional Evolus workflow hand-off
+shiftsense_core.py      anomaly scoring, retrieval, transcription, briefing (LLM + fallback)
+shiftsense_evolus.py    optional Evolus workflow hand-off
 data/manual.md          sample maintenance manual (fictional)
 scripts/serve_on_amd.sh vLLM + ROCm serving for Gemma and Whisper
 ```
